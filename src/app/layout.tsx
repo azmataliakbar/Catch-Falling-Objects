@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Catch Falling Object App",
+  title: "Hit Falling Object App",
   description: "A game app",
 };
 
