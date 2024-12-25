@@ -79,13 +79,13 @@ const FallingObjectsGame = () => {
       <div className="absolute bottom-0 left-0 right-0 flex justify-between gap-4 sm:hidden">
         <button
           onClick={moveLeft}
-          className="bg-white text-black p-2 rounded-full shadow-md flex items-center justify-center w-10 h-10"
+          className="bg-white text-black font-extrabold p-2 rounded-full shadow-md flex items-center justify-center w-10 h-10"
         >
           <FaArrowLeft />.
         </button>
         <button
           onClick={moveRight}
-          className="bg-white text-black p-2 rounded-full shadow-md flex items-center justify-center w-10 h-10"
+          className="bg-white text-black font-extrabold p-2 rounded-full shadow-md flex items-center justify-center w-10 h-10"
         >
           .<FaArrowRight />
         </button>
